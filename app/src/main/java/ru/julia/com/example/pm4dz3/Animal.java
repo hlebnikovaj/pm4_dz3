@@ -1,3 +1,5 @@
+package ru.julia.com.example.pm4dz3;
+
 public class Animal {
     private String name;
     private String animalDescription;
