@@ -20,11 +20,12 @@ public class MainActivity extends AppCompatActivity {
 
         imageButtonLogo.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {
+            public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), SecondActivity.class);
                 startActivity(intent);
+            }
         });
 
 
     }
-}
+    }
